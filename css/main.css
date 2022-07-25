@@ -66,12 +66,12 @@ blockquote strong {
   font-weight: normal;
 }
 
-.serving {
-  font-style: italic;
-}
-
 .varieties > li {
   list-style-type: lower-greek;
+}
+
+.serving {
+  font-style: italic;
 }
 
 dt {
