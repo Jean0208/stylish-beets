@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  color: #222;
   font-family: "PT Serif", serif;
   line-height: 1.5;
 }
@@ -11,7 +10,7 @@ html {
 }
 
 body {
-  margin: 0;
+  /* margin: 0; */
 }
 
 img {
@@ -25,7 +24,7 @@ a {
 
 a:hover {
   color: #3f1622;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1, h2 {
@@ -40,6 +39,7 @@ h1 {
 nav ol {
   font-family: "PT Sans", sans-serif;
   list-style-type: none;
+  font-size: 1.125rem;
 }
 
 figure {
@@ -48,11 +48,9 @@ figure {
 
 figcaption {
   font-style: italic;
-  font-family: "PT Serif", serif;
 }
 
 main figure + p {
-  font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: 1.125rem;
 }
@@ -78,8 +76,8 @@ dt {
   font-weight: bold;
 }
 
-.class > ul > li {
-  /* list-style: 0.8rem; */
+aside ul {
+  font-size: .8rem;
   list-style-type: circle;
 }
 
